@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[Table1]
 (
-	[Gebruikersnaam] INT NOT NULL PRIMARY KEY, 
-    [Wachtwoord] INT NULL
+	[Gebruikersnaam] CHAR(10) NOT NULL PRIMARY KEY, 
+    [Wachtwoord] CHAR(10) NULL
 )
