@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="6de944c1-28a1-402e-8a5f-1adf546842eb" ChangeDateTime="07/23/2015 06:22:08">
+    <Property Name="ElementName" Value="[dbo].[Huidigecursisten].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Huidigecursisten]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Klantnummer" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5b9a2bf1-cbec-4bb6-a96c-694e47ef5bdf" ChangeDateTime="07/23/2015 06:23:07">
+    <Property Name="ElementName" Value="[dbo].[Huidigecursisten].[F Adres 1]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Huidigecursisten]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Factuur Adres 1" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="71b7fd88-1a0c-4eea-9fca-74557dd30f01" ChangeDateTime="07/23/2015 08:01:21">
+    <Property Name="ElementName" Value="[dbo].[Table1].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Table1]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Gebruikersnaam" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5f598025-c106-4710-b8bd-612dfa7eabe2" ChangeDateTime="07/23/2015 08:07:05">
+    <Property Name="ElementName" Value="[dbo].[Table2].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Table2]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Prijs Ac ursus" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="96d68967-a144-42ed-adc5-71781345129f" ChangeDateTime="07/23/2015 08:09:07">
+    <Property Name="ElementName" Value="[dbo].[Table3].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Table3]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Cursus type" />
+  </Operation>
+</Operations>
